@@ -7,7 +7,7 @@ export interface ContaRepository {
     atualizar(conta: Conta): void;
     deletar(numero: number): void;
 
-    secar(numero: number, valor: number): void;
+    sacar(numero: number, valor: number): void;
     depositar(numero: number, valor: number): void;
     transferir(numeroOrigem: number, numeroDestino: number, valor: number): void;
 
